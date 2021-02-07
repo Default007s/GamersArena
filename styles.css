@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.top{
+    font-size: 1.5rem;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    padding: 220px;
+}
+
+.top h1{
+    padding: 20px;
+    text-transform: capitalize;
+    word-spacing: 6px;
+    letter-spacing: 1px;
+}
+
+.parallax{
+  background-image: url("images/gamezz.jpg");
+
+  min-height: 600px;
+
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax1{
+  background-image: url("images/gamer-only.jpg");
+
+  min-height: 600px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax2{
+  background-image: url("images/spidey.jpg");
+
+  min-height: 600px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header{
+    background-image: linear-gradient(90deg, #BF0202, #8D0303);
+    color: white;
+    height: 80px;
+    font-size: 1.3rem;
+    box-shadow: 5px 4px 20px 10px black;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+nav{
+    padding: 40px 50px;
+    color: white;
+}
+
+ul{
+    text-transform: uppercase;
+    margin-right: 50px;
+    text-align: center;
+    color: white;
+}
+
+li{
+    cursor: pointer;
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 50px;
+    color: white;
+}
+
+.line-transition::after{
+    content: '';
+    display: block;
+    width: 0;
+    border-radius: 500px;
+    height: 3px;
+    background: white;
+    transition: width .2s;
+    margin-top: 11.3px;
+}
+
+.line-transition:hover::after{
+    width: 100%;
+    transition: width .2s;
+}
+
+.search{
+    padding-top: 150px;
+}
+
+.gamepad{
+    margin-left: -80px;
+    width: 50px;
+    margin-top: -10px;
+    position: absolute;
+    transform: rotate(30deg);
+}
+
+.game{
+    margin: 70px;
+    padding: 20px;
+    background-color: #e8e1e1;
+    border-radius: 10px;
+}
+
+.game-poster{
+    width: 250px;
+    height: 300px;
+    border-radius: 3px;
+}
+
+.game-subdiv{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: row;
+}
+
+.game-name{
+    color: #d62828;
+    cursor: pointer;
+}
+
+.game-ref{
+    margin-left: 50px;
+}
+
+.date-posted{
+    margin-left: 700px;
+}
+.game-creator{
+    margin-left: 700px;
+}
+
+.form{
+    padding-top: 20px;
+}

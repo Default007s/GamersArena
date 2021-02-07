@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gamers Arena - Games</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <a href="index.html"><li class="line-transition">Home</li>
+                <a href="games.html"><li class="line-transition">Games</li></a>
+                <a href="#"><li class="line-transition">Creators</li></a>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="search container">
+        <img class="gamepad" src="images/gamepad.png">
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Search Gamez...">
+    </div>
+
+    <div id="games">
+        <div class="game">
+            <div class="game-subdiv">
+                <img src="images/unity.jpg" class="game-poster">
+                <div class="game-ref">
+                    <h1 class="game-name">Assassin's Creed Unity</h1>
+                    <p class="game-exp">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum neque nostrum amet, blanditiis deserunt, hic error esse? Odit maxime ab unde numquam sed minus omnis minima incidunt sequi eligendi beatae eum, id quod maiores. Similique deserunt eum consectetur mollitia. Optio sunt sapiente alias tenetur inventore dolore, ex iure ullam, necessitatibus assumenda. Dicta, qui, iste! Quae quasi eveniet vitae quaerat sed ratione quis cupiditate, repellendus, magni et, repudiandae explicabo veritatis, esse aut omnis vero odit totam dicta! Est vitae magni, id eligendi maiores, veritatis. Fuga, sit dolores cupiditate voluptatem culpa sequi ex, labore commodi maiores id, aliquid voluptatibus excepturi amet tenetur.</p>
+                    <h5 class="date-posted">2-2-2020</h5>
+                    <h5 class="game-creator">Rockstar games</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <form class="container form">
+      <div class="form-group">
+        <label for="game-url">Game Image's URL</label>
+        <input type="text" class="form-control" id="game-url">
+      </div>
+
+      <div class="form-group">
+        <label for="game-name">Game's Name</label>
+        <input type="text" class="form-control" id="game-name">
+      </div>
+
+      <div class="form-group">
+        <label for="creator-name">Creators's Name</label>
+        <input type="text" class="form-control" id="creator-name">
+      </div>
+
+      <div class="form-group">
+        <label for="game-exp">Game's Explanation</label>
+        <textarea class="form-control" id="game-exp" rows="5"></textarea>
+      </div>
+
+        <input type="submit" class="btn btn-danger" id="submit-btn">
+
+    </form>
+
+    <script src="https://kit.fontawesome.com/d3a6cae3cd.js" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>
